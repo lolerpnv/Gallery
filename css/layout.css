@@ -3,7 +3,7 @@ h1{
     color: #80bd01;
     text-align: center;
 }
-
+p, label, input{color: #80bd01;}
 div#overlay{
     position: absolute;
     width: 100%;
@@ -21,7 +21,7 @@ div#overlay.hidden, img#big-image.hidden, div#next.hidden, div#prev.hidden
 
 li.lightbox img
 {
-    height: 200px;
+    height: 220px;
     border-radius: 5px;
 }
 li.lightbox{ display: inline-block; margin: 10px; }
