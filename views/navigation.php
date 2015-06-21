@@ -1,8 +1,9 @@
-
 <?php
 return "
-<nav>
-    <a href='index.php?page=gallery'>Gallery</a>
-    <a href='index.php?page=upload'>Upload new image</a>
-</nav>
+<ul id='nav'>
+    <li><a href='index.php?page=gallery' id='gallery'>Gallery</a></li>
+    <li><a href='index.php?page=upload' id='upload'>Upload new image</a></li>
+    <li><a href='index.php?page=poll' id='poll'>Poll</a></li>
+</ul>
+
 ";

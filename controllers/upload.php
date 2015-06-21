@@ -7,7 +7,7 @@ if ( $newImageSubmitted ) {
 }
 return $output;
 function upload(){
-    include_once "classes/Uploader.class.php";
+    include_once "models/Uploader.class.php";
 
     //image-data is the name attribute used in <input type='file' />
     $uploader = new Uploader( "image-data" );

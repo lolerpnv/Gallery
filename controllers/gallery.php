@@ -2,7 +2,7 @@
 return showImages();
 
 function showImages(){
-    $out = "<h1>Image Gallery</h1>";
+    $out = "<br><h1>Image Gallery</h1>";
     $out .= "<ul id='images'>";
     $folder = "img";
     $filesInFolder = new DirectoryIterator( $folder);

@@ -3,7 +3,21 @@ h1{
     color: #80bd01;
     text-align: center;
 }
-p, label, input{color: #80bd01;}
+p, label, li{color: #80bd01;}
+
+input[type="submit"], textarea {
+
+    background-color : #80bd01;
+    border: 1px solid #1d1d1d;
+    border-radius: 5px;
+}
+ul
+{
+    border:1px solid #80bd01;
+    border-width:1px 0;
+    background-color: #1d1d1d;
+    border-radius: 5px;
+}
 div#overlay{
     position: absolute;
     width: 100%;
@@ -15,9 +29,8 @@ div#overlay{
     transition: opacity 1s ease-in;
 }
 
-
 div#overlay.hidden, img#big-image.hidden, div#next.hidden, div#prev.hidden
-{ opacity: 0; left:-200%; }
+{  opacity: 0; left:-200%; }
 
 li.lightbox img
 {
@@ -25,11 +38,7 @@ li.lightbox img
     border-radius: 5px;
 }
 li.lightbox{ display: inline-block; margin: 10px; }
-ul
-{
-    background-color: #1d1d1d;
-    border-radius: 5px;
-}
+
 
 div#prev.showing
 {
