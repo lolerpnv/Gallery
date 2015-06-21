@@ -1,5 +1,5 @@
 # Gallery
-Php image gallery with dynamic JS navigation, upload form and dynamic poll with MySQL database.
+Php image gallery with dynamic JS navigation and picture upscaling, upload form and dynamic poll with MySQL database.
 
 Done by following PHP for Absolute Beginners 2nd Edition.
 
